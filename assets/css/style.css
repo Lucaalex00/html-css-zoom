@@ -1,3 +1,52 @@
-* {
-    background-color: red;
+/*#region utilities*/
+:root {
+    --dark-color: rgba(34, 34, 34, 1);
+    --light-color: rgba(73, 73, 73, 1);
+    --lighter-color: white;
+    --share-color: rgb(10, 191, 10);
+
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*#endregion utilities*/
+.background {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+i {
+    padding: 0 5px;
+}
+
+/*#region header*/
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    gap: 0.5rem;
+}
+
+.header-container div {
+    background-color: var(--light-color);
+    padding: 3px;
+    cursor: pointer;
+}
+
+/*#endregion header*/
+
+/*#region main*/
+.main-container {
+    width: 90vw;
+    margin: auto;
+}
+
+/*#endregion main*/
