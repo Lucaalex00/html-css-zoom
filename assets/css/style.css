@@ -26,6 +26,19 @@ i {
     color: white;
 }
 
+.center {
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: inline;
+}
+
 /*#region header*/
 
 .header-container {
@@ -55,10 +68,12 @@ i {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-content: space-evenly;
     gap: 0.5rem;
     width: 100%;
-    height: calc(100vh - 35px);
+    height: 100vh;
+    margin-bottom: 56.8px;
+    /*MISURA VARIABILE PER ALTEZZA CONTENUTI FOOTER*/
 }
 
 .card {
@@ -78,3 +93,64 @@ i {
 }
 
 /*#endregion main*/
+
+/*#region footer*/
+
+
+.footer-container {
+    background-color: var(--light-color);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.left-controls {
+    font-size: 1rem;
+    align-items: center;
+}
+
+
+
+.mic,
+.cam {
+    padding: 0 1rem;
+}
+
+.mid-controls {
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.share,
+.arrow {
+    cursor: pointer;
+}
+
+.share i {
+    color: var(--share-color);
+}
+
+.arrow {
+    align-self: center;
+}
+
+
+.right-controls {
+    align-items: center;
+
+}
+
+.call-to-action a {
+    text-decoration: none;
+    color: red;
+    background-color: var(--lighter-color);
+    padding: 5px;
+}
+
+
+/*#endregion footer*/
