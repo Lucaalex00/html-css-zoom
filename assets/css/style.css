@@ -13,9 +13,6 @@
     box-sizing: border-box;
 }
 
-
-
-/*#endregion utilities*/
 .background {
     background-color: var(--dark-color);
     color: white;
@@ -39,6 +36,7 @@ i {
     display: inline;
 }
 
+/*#endregion utilities*/
 /*#region header*/
 
 .header-container {
