@@ -46,6 +46,7 @@ i {
     gap: 0.5rem;
     height: 35px;
     /* HEIGHT misura variabile*/
+    z-index: 1
 }
 
 .header-container div {
@@ -69,7 +70,7 @@ i {
     align-content: space-evenly;
     gap: 0.5rem;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin-bottom: 56.8px;
     /*MISURA VARIABILE PER ALTEZZA CONTENUTI FOOTER*/
 }
